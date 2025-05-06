@@ -1,4 +1,4 @@
-# 🚀 Belajar Golang Dasar hingga Lanjutan
+# 🚀 Go Journey
 
 Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograman Go (Golang), mulai dari dasar hingga topik lanjutan. Setiap journey mencakup contoh kode yang dapat digunakan untuk memahami konsep-konsep utama dalam Golang.
 
@@ -76,7 +76,7 @@ Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograma
 
 ## 📂 Struktur Folder
 ```hcl
-belajar-golang-dasar/
+go-journey/
 ├── journey-1-dasar/
 ├── journey-2-struktur-data/
 ├── journey-3-fitur-go/
