@@ -75,7 +75,7 @@ Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograma
 ---
 
 ## 📂 Struktur Folder
-
+```hcl
 belajar-golang-dasar/
 ├── journey-1-dasar/
 ├── journey-2-struktur-data/
@@ -89,7 +89,7 @@ belajar-golang-dasar/
 ├── journey-10-microservices/
 ├── journey-11-cli-tools/
 ├── journey-12-library-package/
-
+```
 ---
 
 ## 🧰 Tools & Referensi
