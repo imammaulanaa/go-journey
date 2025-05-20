@@ -22,8 +22,6 @@ Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograma
 
 ### **journey 4: Testing & Best Practices**
 - **Unit Testing**: Menulis dan menjalankan unit test dengan `testing` package.
-- **Benchmarking**: Mengukur performa aplikasi dengan Go.
-- **Error Handling**: Mengelola error dengan baik, termasuk menggunakan custom error types dan error wrapping.
 
 ### **journey 5: Golang Standard Library**
 - **`net/http`**: Membuat HTTP server dan client.
@@ -45,32 +43,68 @@ Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograma
 - **Error Wrapping**: Teknik error wrapping menggunakan `fmt.Errorf`.
 - **Best Practices**: Menangani error secara eksplisit dan bersih untuk aplikasi yang lebih stabil.
 
-### **journey 8: Concurrency & Parallelism**
+### **journey 8: Testing & benchmarking**
+- **Benchmarking**: Mengukur performa aplikasi dengan Go.
+- **Mocking**: Mocking interface untuk test
+- **table test**: Table-driven test
+- **unit test**: Unit test
+
+### **journey 9: Concurrency & Parallelism**
 - **Goroutine**: Memahami cara kerja goroutine untuk menjalankan fungsi secara bersamaan.
 - **Channel**: Menggunakan channel untuk komunikasi antar goroutine.
 - **Mutex & RWMutex**: Mengontrol akses data bersama dengan menggunakan Mutex.
 - **Select Statement**: Mengelola beberapa channel dalam concurrency.
 
-### **journey 9: Deployment dan Containerization**
-- **Docker**: Menggunakan Docker untuk mengemas aplikasi Go ke dalam container.
-- **CI/CD Pipeline**: Integrasi aplikasi Go ke dalam pipeline CI/CD menggunakan GitHub Actions atau GitLab CI.
-- **Kubernetes**: Men-deploy aplikasi Go dalam cluster Kubernetes.
+### **journey 10: CLI APP & tTooling**
+- **flag_basic**: CLI dasar dengan flag
+- **flag_bool**: Boolean flag
+- **cobra-cli**: CLI modern menggunakan Cobra
 
-### **journey 10: Microservices dengan Golang**
-- **gRPC**: Menggunakan gRPC untuk komunikasi antar layanan microservices.
-- **Protocol Buffers**: Menggunakan Protocol Buffers untuk serialisasi data.
-- **Service Discovery & Load Balancing**: Memahami cara kerja layanan dan balancing di arsitektur microservices.
-- **API Gateway**: Mengelola layanan-layanan mikro dengan API Gateway.
+### **journey 11: Build Module Deployment**
+- **mod init**: Memahami inisialisasi dan penggunaan modul dalam Go.
+- **test package**: Menggunakan third-party package dalam proyek Go.
+- **build binary**: Memahami cara membangun aplikasi Go menjadi binary executable.
+- **app-structure/main.go**: Memahami struktur aplikasi nyata dalam proyek Go.
+- **build.sh**: Menggunakan skrip build sederhana untuk membangun dan mendistribusikan aplikasi.
 
-### **journey 11: Pembuatan Command-Line Tools**
-- **Cobra**: Membuat dan mengelola aplikasi command-line menggunakan Cobra.
-- **Flag Parsing**: Menggunakan `flag` package untuk parsing argumen di CLI.
-- **File System**: Menangani file system melalui CLI tools.
+### **journey 12: HTTP Server & REST API dengan net/http**
+- **HTTP Server**: Membuat server HTTP sederhana untuk menangani permintaan.
+- **RESTful API**: Membangun RESTful API yang mengembalikan data dalam format JSON.
+- **Query Parameters**: Menangani query parameters dalam permintaan HTTP.
+- **HTTP Methods**: Menangani berbagai metode HTTP (GET, POST, PUT, DELETE).
+- **Error Handling**: Menangani error dalam server HTTP.
 
-### **journey 12: Membuat Library/Package untuk Digunakan Kembali**
-- **Membuat Package**: Membangun library Go untuk digunakan dalam proyek lain.
-- **GoDoc**: Dokumentasi kode dengan GoDoc.
-- **Distribusi Library**: Mengelola distribusi library Go di GitHub atau repository lainnya.
+### **journey 13: Middleware & Context**
+- **Middleware**: Menambahkan middleware untuk autentikasi dan logging dalam aplikasi web.
+- **Context**: Mengelola request dengan context untuk memberikan batas waktu dan informasi tambahan.
+- **Middleware untuk Autentikasi**: Menambahkan middleware untuk autentikasi pengguna sebelum mengakses endpoint tertentu.
+- **Context untuk Mengelola Data**: Menggunakan context untuk mengelola data yang dapat dibagikan antar fungsi dalam satu permintaan.
+
+### **journey 14: Database Access**
+- **Database Connection**: Mengakses database menggunakan Go dengan package database/sql.
+- **Inserting Data**: Menyisipkan data ke dalam database menggunakan perintah SQL.
+- **Updating Data**: Memperbarui data yang ada dalam database.
+- **Deleting Data**: Menghapus data dari database.
+- **Error Handling in Database Operations**: Menangani error saat berinteraksi dengan database.
+
+### **journey 15: Dependency Injection**
+- **Dependency Injection**: Menerapkan dependency injection di Go untuk meningkatkan modularitas dan pengujian.
+
+### **journey 16: Deployment ke Docker / Kubernetes**
+- **Docker**: Membuat Dockerfile untuk aplikasi Go.
+- **Kubernetes**: Mendefinisikan deployment Kubernetes untuk aplikasi Go.
+
+### **journey 17: Membuat Internal Package & Module**
+- **Internal Package**: Membuat internal package di Go untuk menjaga encapsulation.
+
+### **journey 18: Error Handling yang Lebih Advance**
+- **Advanced Error Handling**: Menangani error dengan lebih baik menggunakan custom error.
+- **Error Type**: Membuat dan menggunakan custom error types.
+
+### **journey 19: Logging, Tracing, dan Observability**
+- **Logging**: Mencatat log aplikasi untuk keperluan debugging dan monitoring.
+- **Tracing**: Melakukan tracing untuk aplikasi untuk memahami alur eksekusi.
+### **journey 20: Microservice Architecture (Intro)**
 
 ---
 
@@ -84,11 +118,19 @@ go-journey/
 ├── journey-5-standard-library/
 ├── journey-6-web-development/
 ├── journey-7-error-handling/
-├── journey-8-concurrency/
-├── journey-9-deployment/
-├── journey-10-microservices/
-├── journey-11-cli-tools/
-├── journey-12-library-package/
+├── journey-8-testing-benchmarking/
+├── journey-9-concurency-parallesim/
+├── journey-10-cli-app-tools/
+├── journey-11-build-module-deployment/
+├── journey-12-http-server-rest-api/
+├── journey-13-middleware-context/
+├── journey-14-database-access/
+├── journey-15-dependency-injection/
+├── journey-16-deployment-docker-kubernetes/
+├── journey-17-internal-package-modules/
+├── journey-18-error-handling-advanced/
+├── journey-19-logging-tracing-observality/
+├── journey-20-microservice-architecture/
 ```
 ---
 
