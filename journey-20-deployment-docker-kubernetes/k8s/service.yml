@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-journey
+spec:
+  type: ClusterIP
+  selector:
+    app: go-journey
+  ports:
+    - port: 80
+      targetPort: 8080

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-journey
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-journey
+  template:
+    metadata:
+      labels:
+        app: go-journey
+    spec:
+      containers:
+        - name: app
+          image: your-registry/go-journey:latest
+          ports:
+            - containerPort: 8080

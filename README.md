@@ -1,6 +1,6 @@
 # 🚀 Go Journey
 
-Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograman Go (Golang), mulai dari dasar hingga topik lanjutan. Setiap journey mencakup contoh kode yang dapat digunakan untuk memahami konsep-konsep utama dalam Golang.
+Repository ini berisi materi dan contoh kode untuk mempelajari bahasa pemrograman Go (Golang) untuk pemula. Setiap journey mencakup contoh kode yang dapat digunakan untuk memahami konsep-konsep utama dalam Golang.
 
 ## 🧭 Roadmap Pembelajaran
 
@@ -126,11 +126,11 @@ go-journey/
 ├── journey-13-middleware-context/
 ├── journey-14-database-access/
 ├── journey-15-dependency-injection/
-├── journey-16-deployment-docker-kubernetes/
-├── journey-17-internal-package-modules/
-├── journey-18-error-handling-advanced/
-├── journey-19-logging-tracing-observality/
-├── journey-20-microservice-architecture/
+├── journey-16-internal-package-modules/
+├── journey-17-error-handling-advanced/
+├── journey-18-logging-tracing-observality/
+├── journey-19-microservice-architecture/
+├── journey-20-deployment-docker-kubernetes/
 ```
 ---
 
