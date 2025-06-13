@@ -7,7 +7,7 @@
 
 ---
 
-## Peta Perjalanan (19 Chapter of Go Quest)
+## Peta Perjalanan (19 Chapter of Go Journey)
 
 | #  | Chapter                              | Kisah Singkat                                        |
 |---:|--------------------------------------|------------------------------------------------------|
