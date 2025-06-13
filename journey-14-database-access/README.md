@@ -1,22 +1,29 @@
-# Contoh SQL Table
-```sql
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(100),
-  age INT
-);
-```
+# Journey 14: Database Access
+> **Cerita**  
+Di tambang PostgreSQL, Gopher menggali record, menulis transaksi, dan memanggil prosedur lewat `database/sql`. Ia menyiapkan prepared statement untuk keamanan, merencanakan rollback bila runtuh, dan merayakan setiap baris data yang berhasil diambil.
 
-# Cara Menjalankan
+
+## Tujuan Pembelajaran
+- Connect DB
+- Query & Scan
+- Prepared stmt
+- Transaction
+
+## Daftar File
+- `config/db.go`
+- `model/user.go`
+- `handler/user.go`
+- `main.go`
+
+## Cara Menjalankan
 ```bash
+cd journey-14-database-access
 go run main.go
 ```
-coba dengan:
-```bash
-curl http://localhost:8080/users
-```
-```bash
-curl -X POST http://localhost:8080/users/create \
--H "Content-Type: application/json" \
--d '{"name": "Imam", "age": 30}'
-```
+
+## Catatan
+Pastikan DB berjalan dan DSN benar.
+
+## Referensi
+- https://pkg.go.dev/database/sql
+- https://github.com/lib/pq

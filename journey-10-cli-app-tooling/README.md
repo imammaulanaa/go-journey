@@ -1,29 +1,27 @@
-
-
 # Journey 10: CLI App & Tooling
+> **Cerita**  
+Di kota CLI, Gopher menempa pedang `flag`, merangkai argumen dasar dan boolean hingga perintah sederhana menari di terminal. Tak berhenti di situ, ia memasuki kuil Cobra, menyusun subcommand dan help message, menciptakan alat baris perintah yang tangguh dan modular.
 
-Belajar membangun aplikasi CLI dengan `flag` dan `cobra`.
 
-## 🎯 Tujuan Pembelajaran
-- Membuat CLI menggunakan package `flag`
-- Menambahkan flag boolean dan string
-- Membuat aplikasi CLI modular menggunakan `cobra`
+## Tujuan Pembelajaran
+- Flag dasar & boolean flags
+- Setup Cobra CLI
 
-## 📦 Daftar File
+## Daftar File
+- `flag_basic.go`
+- `flag_bool.go`
+- `cobra-cli/main.go`
+- `cobra-cli/cmd/root.go`
 
-| File                        | Topik                        |
-|-----------------------------|------------------------------|
-| flag_basic.go            | CLI dengan flag              |
-| flag_bool.go             | Boolean flag                 |
-| cobra-cli/main.go           | Aplikasi CLI menggunakan Cobra |
-| cobra-cli/cmd/root.go       | Root command Cobra           |
-
-## ▶️ Cara Menjalankan
-
+## Cara Menjalankan
 ```bash
-go run flag_basic.go -nama=Imam -umur=30
+cd journey-10-cli-app-tooling
+go run flag_basic.go -nama=Gopher
 ```
-Untuk cobra:
-```bash
-go run cobra-cli/main.go
-```
+
+## Catatan
+go get github.com/spf13/cobra@latest
+
+## Referensi
+- https://pkg.go.dev/flag
+- https://github.com/spf13/cobra

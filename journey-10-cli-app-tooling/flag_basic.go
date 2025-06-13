@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    nama := flag.String("nama", "Imam", "Nama pengguna")
+    nama := flag.String("nama", "Gopher", "Nama pengguna")
     umur := flag.Int("umur", 30, "Umur pengguna")
 
     flag.Parse()
